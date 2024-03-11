@@ -15,8 +15,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start-electron": "electron .",
-    "start": "react-scripts start",
+    "start": "PORT=3049 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
